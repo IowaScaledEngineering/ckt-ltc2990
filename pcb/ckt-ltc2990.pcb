@@ -1,5 +1,5 @@
 # release: pcb 20100929
-# date:    Thu Mar 22 14:31:51 2012
+# date:    Fri Mar 23 21:32:06 2012
 # user:    railfan (Michael Petersen,,,)
 # host:    sylvanite
 
@@ -928,25 +928,25 @@ Layer(2 "solder")
 )
 Layer(3 "silk")
 (
-	Line[18500 40500 18500 45000 1000 2000 "clearline"]
-	Line[16000 45000 21000 45000 1000 2000 "clearline"]
-	Line[17000 46500 20000 46500 1000 2000 "clearline"]
-	Line[18000 48000 19000 48000 1000 2000 "clearline"]
-	Text[20500 12000 2 100 "V2" "clearline,auto"]
-	Text[36000 42000 2 100 "SDA" "clearline,auto"]
-	Text[20500 31500 2 100 "V4" "clearline,auto"]
-	Text[36000 31500 2 100 "SCL" "clearline,auto"]
+	Line[17500 40500 17500 45000 1000 2000 "clearline"]
+	Line[15000 45000 20000 45000 1000 2000 "clearline"]
+	Line[16000 46500 19000 46500 1000 2000 "clearline"]
+	Line[17000 48000 18000 48000 1000 2000 "clearline"]
+	Text[21000 12000 2 100 "V2" "clearline,auto"]
+	Text[35500 42000 2 100 "SDA" "clearline,auto"]
+	Text[35500 22000 2 100 "A2" "clearline,auto"]
+	Text[35500 31500 2 100 "SCL" "clearline,auto"]
 	Text[35500 2000 2 100 "VCC" "clearline,auto"]
 	Text[20500 2000 2 100 "V1" "clearline,auto"]
 	Text[20500 22000 2 100 "V3" "clearline,auto"]
 	Text[35500 12000 2 100 "A1" "clearline,auto"]
-	Text[35500 22000 2 100 "A2" "clearline,auto"]
+	Text[20500 31500 2 100 "V4" "clearline,auto"]
 )
 Layer(4 "silk")
 (
 	Line[500 500 49500 500 1000 2000 "clearline"]
 	Line[49500 500 49500 49500 1000 2000 "clearline"]
-	Line[49500 49500 500 49500 1000 2000 "clearline"]
 	Line[500 49500 500 500 1000 2000 "clearline"]
+	Line[49500 49500 500 49500 1000 2000 "clearline"]
 	Text[14500 7500 0 100 "LTC2990" "clearline"]
 )
