@@ -1,6 +1,9 @@
 #!/bin/bash
 
-pcb -x ps --psfile ckt-ltc2990.ps ckt-ltc2990.pcb
-ps2pdf ckt-ltc2990.ps
-rm ckt-ltc2990.ps
-acroread ckt-ltc2990.pdf
+PCB=ckt-ltc2990
+
+pcb -x ps --psfile $PCB.ps $PCB.pcb
+ps2pdf $PCB.ps
+rm $PCB.ps
+mv $PCB.pdf $PCB-pcb.pdf
+acroread $PCB-pcb.pdf
