@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 50000 50000]
 
 Grid[500.0 0 0 0]
-Cursor[49500 50000 0.000000]
+Cursor[500 2500 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[800 1000 800 1000 2000 1000]
@@ -947,4 +947,5 @@ Layer(4 "silk")
 	Line[500 49500 500 500 1000 2000 "clearline"]
 	Line[49500 49500 500 49500 1000 2000 "clearline"]
 	Text[14500 7500 0 100 "LTC2990" "clearline"]
+	Text[19000 33000 0 100 "v1.1" "clearline"]
 )
